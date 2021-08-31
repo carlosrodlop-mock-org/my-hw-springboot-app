@@ -15,7 +15,7 @@ pipeline {
     stage('Stage 3') {
       steps {
         echo "Promote to Environments"
-        echo "dummy change: PR"
+        echo "dummy change: PR 1"
         sleep 300
       }
     }
