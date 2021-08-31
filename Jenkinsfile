@@ -9,14 +9,14 @@ pipeline {
     stage('Stage 2') {
       steps {
         echo "Build Release"
-        sleep 3
+        sleep 3000
       }
     }
     stage('Stage 3') {
       steps {
         echo "Promote to Environments"
-        echo "push 1"
-        sleep 3
+        echo "PR 1"
+        sleep 300
       }
     }
   }
